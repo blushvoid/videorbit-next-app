@@ -68,7 +68,7 @@
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
-
+/* 
 .grid {
   display: flex;
   align-items: center;
@@ -118,4 +118,4 @@
     width: 100%;
     flex-direction: column;
   }
-}
+} */
