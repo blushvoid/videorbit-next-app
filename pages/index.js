@@ -44,7 +44,7 @@ const Page = ({ title }) => {
           <HTMLContent
             domContent={domContent}
             bgColor="#f1d8f5 url('background.png') no-repeat"
-            modelPath='/website_avatar_vers_v1Draco.gltf'
+            modelPath='/website_avatar_vers_v2Draco.gltf'
             position={250}
           >
             <HeroSection />
@@ -52,7 +52,7 @@ const Page = ({ title }) => {
           <HTMLContent
             domContent={domContent}
             bgColor="#FECEE9 url('background4.png') no-repeat"
-            modelPath='/website_avatar_fruits_v7Draco.gltf'
+            modelPath='/website_avatar_fruits_v9Draco.gltf'
             position={0}
           >
             <ProcessSection />
@@ -60,14 +60,14 @@ const Page = ({ title }) => {
           <HTMLContent
             domContent={domContent}
             bgColor="#f1d8f5 url('background5.png') no-repeat"
-            modelPath='/website_avatar_soph_v5Draco.gltf'
+            modelPath='/website_avatar_soph_v11Draco.gltf'
             position={-250}
           >
             <LandingSection />
           </HTMLContent>
           <HTMLContent
             domContent={domContent}
-            bgColor="#f2f3fc url('background4.png') no-repeat"
+            bgColor="#f2f3fc url('background_2.png') no-repeat"
             modelPath='/website_avatar_lanc_v15Draco.gltf'
             position={-500}
           >
