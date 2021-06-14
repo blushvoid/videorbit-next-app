@@ -52,7 +52,7 @@ const Page = ({ title }) => {
           <HTMLContent
             domContent={domContent}
             bgColor="#FECEE9 url('background4.png') no-repeat"
-            modelPath='/website_avatar_fruits_v8Draco.gltf'
+            modelPath='/website_avatar_fruits_v7Draco.gltf'
             position={0}
           >
             <ProcessSection />
@@ -68,7 +68,7 @@ const Page = ({ title }) => {
           <HTMLContent
             domContent={domContent}
             bgColor="#f2f3fc url('background4.png') no-repeat"
-            modelPath='/website_avatar_lanc_v17Draco.gltf'
+            modelPath='/website_avatar_lanc_v15Draco.gltf'
             position={-500}
           >
             <DevelopmentSection />
