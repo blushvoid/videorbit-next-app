@@ -6,9 +6,10 @@
 
 // ---------------------------VARIABLES
 $color-shadow: rgba(31, 38, 135, 0.37);
+$box-shadow:  6px 10px 32px 0 rgba(31, 38, 135, 0.6);
 $color-font-primary: #253241;
-$glass-border: 1px solid rgba(255, 255, 255, 0.18);
-$glass-background: rgba(255, 255, 255, 0.05);
+$glass-border: 1px solid rgba(255, 255, 255, 0.1);
+$glass-background: rgba(255, 255, 255, 0.03);
 $primary-pink: #F5CBDF;
 $primary-text-color: #253241;
 
@@ -32,6 +33,7 @@ body,
   background: $primary-pink;
   transition: 0.4s ease-in-out;
   text-rendering: optimizeSpeed;
+  text-decoration: none;
 }
 canvas {
   width: 100vw;
@@ -127,8 +129,8 @@ Link {
   box-shadow: 10px 20px 20px $color-shadow;
   backdrop-filter: blur(21px);
   --webkit-backdrop-filter: blur(21px);
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  background-color: rgba(255, 255, 255, 0.05);
+  border: $glass-border;
+  background-color: $glass-background;
   a {
     text-transform: lowercase;
     text-decoration: none;
@@ -177,12 +179,13 @@ Link {
       backdrop-filter: blur(4px);
       -webkit-backdrop-filter: blur(4px);
       text-overflow: ellipsis;
-      border: 1px solid rgba(255, 255, 255, 0.18);
+      border: $glass-border;
     }
     &.btn:active {
+      text-decoration: none;
       transform: translateY(3px);
       box-shadow: 8px 15px 42px 0 $color-shadow;
-      border: 1px solid rgba(255, 255, 255, 0.18);
+      border: $glass-border;
     }
   }
 }
@@ -248,7 +251,7 @@ button {
   font-weight: 600;
   // background-image: linear-gradient(45deg, #ffc179, #ffe2c8);
   background: rgba(255, 255, 255, 0.45);
-  box-shadow: 6px 10px 32px 0 rgba(31, 38, 135, 0.37);
+  box-shadow: $box-shadow;
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   padding: 16px 24px;
@@ -256,7 +259,7 @@ button {
   text-transform: lowercase;
   text-decoration: none;
   text-overflow: ellipsis;
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  border: $glass-border;
 }
 
 .btn-big {
@@ -270,10 +273,10 @@ button {
   font-weight: 500;
   text-transform: lowercase;
   text-overflow: ellipsis;
-  box-shadow: 6px 10px 32px 0 #1f26875e;
+  box-shadow: $box-shadow;
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  border: $glass-border;
   background-image: linear-gradient(45deg, #fdcbc3a8, #fee1c671);
   @media (max-width: 1440px) {
     font-size: 0.9rem;
@@ -281,10 +284,6 @@ button {
     padding: 1rem 1.5rem;
   }
   a {
-    Link {
-      text-decoration: none;
-      color: $primary-text-color;
-    }
     text-decoration: none;
     color: $primary-text-color;
   }
@@ -354,13 +353,13 @@ button {
   justify-content: space-around;
   align-content: center;
   text-align: center;
-  background: #ffffff60;
+  background: $glass-background;
   border-radius: 1rem;
   text-overflow: ellipsis;
-  box-shadow: 6px 10px 32px 0 rgba(31, 38, 135, 0.6);
+  box-shadow: $box-shadow;
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  border: $glass-border;
   @media (max-width: 700px) {
     width: 85vw;
     height: 40vh;
@@ -388,6 +387,7 @@ button {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-content: center;
   @media (max-width: 700px) {
     flex-direction: column;
     width: 90vw;
@@ -405,10 +405,10 @@ button {
 //   background: #ffffff20;
 //   border-radius: 1rem;
 //   text-overflow: ellipsis;
-//   box-shadow: 6px 10px 32px 0 rgba(31, 38, 135, 0.6);
+//   box-shadow: $box-shadow;
 //   backdrop-filter: blur(5px);
 //   -webkit-backdrop-filter: blur(5px);
-//   border: 1px solid rgba(255, 255, 255, 0.18);
+//   border: $glass-border;
 // }
 
 .landingParagraph {
@@ -429,6 +429,7 @@ button {
   display: flex;
   flex-direction: column;
   align-content: space-around;
+  justify-content: center;
   text-align: left;
   @media (max-width: 700px) {
     width: 90vw !important;
@@ -442,7 +443,7 @@ button {
   margin: 0 3rem 2rem 0;
   // margin: 0 3rem 0 0;
   border-radius: 20px;
-  box-shadow: 6px 10px 32px 0 rgba(31, 38, 135, 0.6);
+  box-shadow: $box-shadow;
   @media (max-width: 700px) {
     display: none;
   }
@@ -453,12 +454,12 @@ button {
   width: 100vw;
   margin: 0;
   display: block;
-  background: #ffffff60;
+  background: $glass-background;
   text-overflow: ellipsis;
-  box-shadow: 6px 10px 32px 0 rgba(31, 38, 135, 0.6);
+  box-shadow: $box-shadow;
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  border: $glass-border;
   padding: 0 0 1.4rem 0;
 }
 
@@ -497,10 +498,10 @@ button {
     background: #ffffff20;
     border-radius: 1rem;
     text-overflow: ellipsis;
-    box-shadow: 6px 10px 32px 0 rgba(31, 38, 135, 0.6);
+    box-shadow: $box-shadow;
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
-    border: 1px solid rgba(255, 255, 255, 0.18);
+    border: $glass-border;
   }
 }
 .developmentParagraph {
