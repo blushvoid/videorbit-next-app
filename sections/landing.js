@@ -51,10 +51,10 @@ export default function LandingSection() {
           <img className="clientLogo" src="/Lancome.svg" alt="lancome logo" />
           <img
             className="clientLogo"
-            src="/swarovski.svg"
-            alt="swarovski logo"
+            src="/guerlain.svg"
+            alt="guerlain logo"
           />
-          <img className="clientLogo" src="/Deloitte.svg" alt="deloitte logo" />
+          <img className="clientLogo" src="/Nespresso.svg" alt="nespresso logo" />
         </div>
       </div>
     </>

@@ -767,3 +767,14 @@ span.copyright {
 .cellPreview {
   opacity: 0.7;
 }
+
+// --------------------------PORTFOLIO PAGE
+.portfolioHeader {
+  height: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: flex-end;
+  text-align: center;
+}
+
