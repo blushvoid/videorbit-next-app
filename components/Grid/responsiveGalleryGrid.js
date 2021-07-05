@@ -8,6 +8,11 @@ function ResponsiveGalleryGrid() {
 
   return (
     <>
+    {/* <div className="portfolioHeader">
+      <div></div>
+      <p></p>
+      <p>Here you’ll find out what we’ve been up to.</p>
+    </div> */}
       {!isMobile && <DesktopGrid />}
       {isMobile && <MobileGrid />}
     </>

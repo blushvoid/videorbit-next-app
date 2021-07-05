@@ -1,15 +1,15 @@
-import React from 'react'
+import React from "react";
 
-import ResponsiveGalleryGrid from '../components/Grid/responsiveGalleryGrid'
-import ResponsiveHeader from '../components/responsiveHeader'
-import Footer from '../components/footer'
+import ResponsiveGalleryGrid from "../components/Grid/responsiveGalleryGrid";
+import ResponsiveHeader from "../components/responsiveHeader";
+import Footer from "../components/footer";
 
 const Portfolio = () => (
-  <>
-    <ResponsiveHeader style={{ zIndex: 9999, color: '#FFF' }} />
+  <div className='Gallery'>
+    <ResponsiveHeader style={{ zIndex: 9999, color: "#FFF" }} />
     <ResponsiveGalleryGrid />
     <Footer />
-  </>
-)
+  </div>
+);
 
-export default Portfolio
+export default Portfolio;

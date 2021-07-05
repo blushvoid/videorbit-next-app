@@ -8,17 +8,17 @@ function Footer() {
       <div className="footerContainer">
         <ul className="footerList" id="socialLinks">
           <li className="socialIcon">
-          <a href="https://www.instagram.com/videorbit.studio/">
+          <a href="https://www.instagram.com/videorbit.studio/" target="_blank">
             <Instagram />
             </a>
           </li>
           <li className="socialIcon">
-            <a href="https://www.facebook.com/VideOrbitStudio/">
+            <a href="https://www.facebook.com/VideOrbitStudio/" target="_blank">
               <Facebook />
             </a>
           </li>
           <li className="socialIcon">
-            <a href="https://www.linkedin.com/company/videorbit/">
+            <a href="https://www.linkedin.com/company/videorbit/" target="_blank">
               <Linkedin />
             </a>
           </li>
