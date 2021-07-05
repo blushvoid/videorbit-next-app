@@ -2,16 +2,18 @@ import React, { Component } from 'react'
 import data from './data'
 import { Grid, Slug, Fade } from 'mauerwerk'
 import { X } from 'react-feather'
+import Image from 'next/image'
 
 const Cell = ({
   toggle,
   name,
-  height,
   description,
   img,
   css,
   alt,
+  gifImg,
   maximized,
+  link
 }) => (
   <div
     className='cell'
@@ -20,14 +22,14 @@ const Cell = ({
   >
     <Fade show={maximized} delay={maximized ? 400 : 0}>
       <div className='details'>
-        <Slug delay={600}>
-          <div className='circle' style={{ background: css }} />
+        <Slug delay={300}>
+          <div className='circle' style={{ background: `url(${gifImg})`, backgroundPosition: 'center', backgroundSize: 'auto' }} />
           <div className='close'>
             <X style={{ cursor: 'pointer' }} onClick={toggle} />
           </div>
           <h1>{name}</h1>
-
-          <p>{description}</p>
+          <p className="gridDescription">{description}</p>
+          <p className="gridDescription">Try it yourself <a href={link} target="_blank">here →</a></p>
         </Slug>
       </div>
     </Fade>
@@ -39,8 +41,8 @@ const Cell = ({
       delay={maximized ? 0 : 400}
     >
       <div className='default'>
-        <img src={img} alt={alt} className='cellPreview' />
-        {name}
+        <Image src={img} alt={alt} className='cellPreview' layout="fill" />
+        <h1>{name}</h1>
       </div>
     </Fade>
   </div>
@@ -57,7 +59,7 @@ class DesktopGrid extends Component {
           // Key accessor, instructs grid on how to fet individual keys from the data set
           keys={(d) => d.name}
           // Can be a fixed value or an individual data accessor
-          heights={600}
+          heights={620}
           // Number of columns
           columns={4}
           // Space between elements
@@ -65,7 +67,7 @@ class DesktopGrid extends Component {
           // Removes the possibility to scroll away from a maximized element
           lockScroll={false}
           // Delay when active elements (blown up) are minimized again
-          closeDelay={400}
+          closeDelay={50}
         >
           {(data, maximized, toggle) => (
             <Cell {...data} maximized={maximized} toggle={toggle} />
@@ -88,7 +90,7 @@ class MobileGrid extends Component {
           columns={2}
           margin={0}
           lockScroll={true}
-          closeDelay={400}
+          closeDelay={100}
         >
           {(data, maximized, toggle) => (
             <Cell {...data} maximized={maximized} toggle={toggle} />
