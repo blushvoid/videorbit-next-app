@@ -1,4 +1,10 @@
-// import {useState} from 'react'
-const Contact = () => (<>Happiness</>)
+import React from "react";
+import ContactForm from "../components/contactForm";
 
-export default Contact
+const Contact = () => (
+  <div>
+    <ContactForm />
+  </div>
+);
+
+export default Contact;
