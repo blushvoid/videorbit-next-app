@@ -10,6 +10,7 @@
   "dependencies": {
     "@react-three/drei": "^6.0.1",
     "@react-three/fiber": "^6.2.3",
+    "axios": "^0.21.1",
     "lerp": "^1.0.3",
     "mauerwerk": "^2.0.2",
     "next": "10.2.3",
