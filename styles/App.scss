@@ -795,3 +795,88 @@ span.copyright {
   text-align: center;
 }
 
+// --------------------------CONTACT PAGE
+.contactPage {
+  margin: 0 auto;
+}
+
+main {
+  font-family: "Montserrat", sans-serif;
+
+}
+
+.formContainer {
+  margin: auto;
+  max-width: 70%;
+  padding: 4.2rem 0 0 0;
+  @media (max-width: 800px) {
+    max-width: 85%;
+    padding: 4.5rem 0 0 0;
+  }
+}
+
+.formH3 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: $primary-text-color;
+}
+
+.formH1 {
+  font-size: 3rem;
+  color: $primary-text-color;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  justify-content: space-between;
+}
+
+input {
+  font-family: "Montserrat", sans-serif;
+  background: rgba(255, 255, 255, 0.45);
+  box-shadow: $box-shadow;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  padding: 16px 24px;
+  border-radius: 1rem;
+  text-transform: lowercase;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  border: $glass-border;
+  margin: 1rem 0 1rem 0;
+}
+
+textarea {
+  font-family: "Montserrat", sans-serif;
+  background: rgba(255, 255, 255, 0.45);
+  box-shadow: $box-shadow;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  height: 10em;
+  padding: 16px 24px;
+  border-radius: 1rem;
+  text-transform: lowercase;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  border: $glass-border;
+  margin: 1rem 0 1rem 0;
+}
+input:focus,
+textarea:focus,
+button:focus {
+  outline: 0;
+  border-color: #edc0ff;
+}
+button:disabled {
+  pointer-events: none;
+  background: #999;
+}
+
+.error {
+  background: #941414;
+  color: #fff;
+  margin-top: 16px;
+  text-align: center;
+}
