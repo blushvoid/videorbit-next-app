@@ -178,6 +178,7 @@ Link {
   // justify-items: stretch;
   justify-content: space-between;
   a {
+    text-shadow: 0px 1px 8px #FFFFFF;
     &.btn {
       margin: 0;
       padding: 0;
@@ -819,11 +820,17 @@ main {
   font-size: 1rem;
   font-weight: 400;
   color: $primary-text-color;
+  @media (max-width: 800px) {
+    font-size: 0.8rem;
+  }
 }
 
 .formH1 {
   font-size: 3rem;
   color: $primary-text-color;
+  @media (max-width: 800px) {
+    font-size: 2rem;
+  }
 }
 
 form {

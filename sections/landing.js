@@ -31,30 +31,30 @@ export default function LandingSection() {
         <div className="clientsWrapper">
           <img
             className="clientLogo"
-            src="/Versace_v2.svg"
+            src="/brands/Versace_v2.svg"
             alt="versace logo"
           />
-          <img className="clientLogo" src="/Loreal.svg" alt="l'oreal logo" />
-          <img className="clientLogo" src="/Facebook.svg" alt="facebook logo" />
+          <img className="clientLogo" src="/brands/Loreal.svg" alt="l'oreal logo" />
+          <img className="clientLogo" src="/brands/Facebook.svg" alt="facebook logo" />
           <img
             className="clientLogo"
-            src="/bimba-y-lola.svg"
+            src="/brands/bimba-y-lola.svg"
             alt="bimba y lola logo"
           />
         </div>
         <div className="clientsWrapper">
           <img
             className="clientLogo"
-            src="/mac-cosmetics.svg"
+            src="/brands/mac-cosmetics.svg"
             alt="mac cosmetics logo"
           />
-          <img className="clientLogo" src="/Lancome.svg" alt="lancome logo" />
+          <img className="clientLogo" src="/brands/Lancome.svg" alt="lancome logo" />
           <img
             className="clientLogo"
-            src="/guerlain.svg"
+            src="/brands/guerlain.svg"
             alt="guerlain logo"
           />
-          <img className="clientLogo" src="/Nespresso.svg" alt="nespresso logo" />
+          <img className="clientLogo" src="/brands/Nespresso.svg" alt="nespresso logo" />
         </div>
       </div>
     </>
