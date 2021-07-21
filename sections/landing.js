@@ -31,21 +31,31 @@ export default function LandingSection() {
         <div className="clientsWrapper">
           <img
             className="clientLogo"
-            src="/brands/Versace_v2.svg"
+            src="/brands/versace.svg"
             alt="versace logo"
           />
           <img className="clientLogo" src="/brands/Loreal.svg" alt="l'oreal logo" />
           <img className="clientLogo" src="/brands/Facebook.svg" alt="facebook logo" />
           <img
             className="clientLogo"
-            src="/brands/bimba-y-lola.svg"
+            src="/brands/OurHouse.svg"
+            alt="OUR HOUSE logo"
+          />
+          <img
+            className="clientLogo"
+            src="/brands/bimba.svg"
             alt="bimba y lola logo"
           />
         </div>
         <div className="clientsWrapper">
+        <img
+            className="clientLogo"
+            src="/brands/IKEA.svg"
+            alt="ikea logo"
+          />
           <img
             className="clientLogo"
-            src="/brands/mac-cosmetics.svg"
+            src="/brands/mac.svg"
             alt="mac cosmetics logo"
           />
           <img className="clientLogo" src="/brands/Lancome.svg" alt="lancome logo" />
