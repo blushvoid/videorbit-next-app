@@ -41,7 +41,7 @@ const Cell = ({
       delay={maximized ? 0 : 400}
     >
       <div className='default'>
-        <Image src={img} alt={alt} className='cellPreview' layout="fill" />
+        <Image src={img} alt={alt} className='cellPreview' layout='fill' />
         <h1>{name}</h1>
       </div>
     </Fade>

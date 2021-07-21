@@ -178,6 +178,7 @@ Link {
   // justify-items: stretch;
   justify-content: space-between;
   a {
+    text-shadow: 0px 0px 9px #FFF;
     &.btn {
       margin: 0;
       padding: 0;
@@ -782,7 +783,8 @@ span.copyright {
 }
 
 .cellPreview {
-  opacity: 0.9;
+  opacity: 0.8;
+  object-fit: cover;
 }
 
 // --------------------------PORTFOLIO PAGE
