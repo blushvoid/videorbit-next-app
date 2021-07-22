@@ -1,4 +1,16 @@
-// import {useState} from 'react'
-const Contact = () => (<>Happiness</>)
+import React from "react";
+import ContactForm from "../components/contactForm";
+import ResponsiveHeader from "../components/responsiveHeader";
+import Footer from "../components/footer";
 
-export default Contact
+const Contact = () => (
+  <div className="contactPage">
+    <ResponsiveHeader style={{ zIndex: 9999, color: "#FFF" }} />
+    <div className="formContainer">
+      <ContactForm />
+    </div>
+    <Footer />
+  </div>
+);
+
+export default Contact;
