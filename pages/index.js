@@ -52,7 +52,7 @@ const Page = ({ title }) => {
           <HTMLContent
             domContent={domContent}
             bgColor="#FECEE9 url('background4.png') no-repeat"
-            modelPath='/website_avatar_fruits_v9Draco.gltf'
+            modelPath='/website_avatar_fruits_v7.gltf'
             position={0}
           >
             <ProcessSection />
@@ -60,7 +60,7 @@ const Page = ({ title }) => {
           <HTMLContent
             domContent={domContent}
             bgColor="#f1d8f5 url('background5.png') no-repeat"
-            modelPath='/website_avatar_soph_v11Draco.gltf'
+            modelPath='/website_avatar_soph_v15.gltf'
             position={-250}
           >
             <LandingSection />
@@ -68,7 +68,7 @@ const Page = ({ title }) => {
           <HTMLContent
             domContent={domContent}
             bgColor="#f2f3fc url('Background3.png') no-repeat"
-            modelPath='/website_avatar_lanc_v15Draco.gltf'
+            modelPath='/website_avatar_lanc_v16Draco.gltf'
             position={-500}
           >
             <DevelopmentSection />

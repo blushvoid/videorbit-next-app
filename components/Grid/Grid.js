@@ -23,7 +23,7 @@ const Cell = ({
     <Fade show={maximized} delay={maximized ? 400 : 0}>
       <div className='details'>
         <Slug delay={300}>
-          <div className='circle' style={{ background: `url(${gifImg})`, backgroundPosition: 'center', backgroundSize: 'auto' }} />
+          <div className='circle' style={{ background: `url(${gifImg})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }} />
           <div className='close'>
             <X style={{ cursor: 'pointer' }} onClick={toggle} />
           </div>

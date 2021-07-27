@@ -31,7 +31,7 @@ export default function LandingSection() {
         <div className="clientsWrapper">
           <img
             className="clientLogo"
-            src="/brands/versace.svg"
+            src="/brands/Versace.svg"
             alt="versace logo"
           />
           <img className="clientLogo" src="/brands/Loreal.svg" alt="l'oreal logo" />
@@ -55,7 +55,7 @@ export default function LandingSection() {
           />
           <img
             className="clientLogo"
-            src="/brands/mac.svg"
+            src="/brands/Mac.svg"
             alt="mac cosmetics logo"
           />
           <img className="clientLogo" src="/brands/Lancome.svg" alt="lancome logo" />
