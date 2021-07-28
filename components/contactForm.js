@@ -60,9 +60,6 @@ const ContactForm = () => {
   };
   return (
     <main>
-      <h3 className="formH3">Do you want to boost your brand with social AR? <br/>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed placerat odio sit amet erat rhoncus?
-      </h3>
       <h1 className="formH1">Contact us!</h1>
       <form onSubmit={handleOnSubmit}>
         <label htmlFor="email">Email</label>

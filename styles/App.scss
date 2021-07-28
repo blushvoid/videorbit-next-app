@@ -582,6 +582,7 @@ button {
   color: #25324180;
   a {
     color: #25324190;
+    text-decoration: none;
   }
   a:hover {
     color: $primary-text-color;
@@ -799,7 +800,8 @@ span.copyright {
 
 // --------------------------CONTACT PAGE
 .contactPage {
-  margin: 0 auto;
+  margin: 0 auto 0 auto;
+  height: 100vh;
 }
 
 main {
@@ -887,4 +889,21 @@ button:disabled {
   color: #fff;
   margin-top: 16px;
   text-align: center;
+}
+
+// --------------------------CONTACT PAGE
+.textPage {
+  margin: 0 auto;
+  background-image: url('/public/background3.png') no-repeat;
+}
+
+.textContainer {
+  
+  margin: auto;
+  max-width: 70%;
+  padding: 6rem 0 7rem 0;
+  @media (max-width: 800px) {
+    max-width: 85%;
+    padding: 4.5rem 0 7rem 0;
+  }
 }

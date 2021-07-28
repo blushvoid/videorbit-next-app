@@ -4,13 +4,18 @@ import ResponsiveHeader from "../components/responsiveHeader";
 import Footer from "../components/footer";
 
 const Contact = () => (
-  <div className="contactPage">
+  <>
     <ResponsiveHeader style={{ zIndex: 9999, color: "#FFF" }} />
-    <div className="formContainer">
-      <ContactForm />
+    <div
+      className="contactPage"
+      style={{ backgroundImage: "url('background3.png')" }}
+    >
+      <div className="formContainer">
+        <ContactForm />
+      </div>
     </div>
     <Footer />
-  </div>
+  </>
 );
 
 export default Contact;

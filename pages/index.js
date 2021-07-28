@@ -67,7 +67,7 @@ const Page = ({ title }) => {
           </HTMLContent>
           <HTMLContent
             domContent={domContent}
-            bgColor="#f2f3fc url('Background3.png') no-repeat"
+            bgColor="#f2f3fc url('background3.png') no-repeat"
             modelPath='/website_avatar_lanc_v16Draco.gltf'
             position={-500}
           >
