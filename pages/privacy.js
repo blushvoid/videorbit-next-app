@@ -3,7 +3,16 @@ import ResponsiveHeader from "../components/responsiveHeader";
 import Footer from "../components/footer";
 
 const Privacy = () => (
-  <div className="textPage" style={{backgroundImage: "url('background3.png')", backgroundAttachment: "fixed"  }}>
+  <div
+    className="textPage"
+    style={{
+      backgroundImage: "url('background3.png')",
+      backgroundAttachment: "fixed",
+      backgroundSize: "cover",
+      height: "100vh",
+      width: "100vw"
+    }}
+  >
     <ResponsiveHeader />
     <div className="textContainer">
       <b>Privacy Statement Video Bit Studio</b> <br />
