@@ -52,7 +52,7 @@ const Page = ({ title }) => {
           <HTMLContent
             domContent={domContent}
             bgColor="#FECEE9 url('background4.png') no-repeat"
-            modelPath='/website_avatar_fruits_v10Draco.gltf'
+            modelPath='/website_avatar_fruits_v9.gltf'
             position={0}
           >
             <ProcessSection />
