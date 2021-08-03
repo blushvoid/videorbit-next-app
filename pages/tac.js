@@ -11,7 +11,7 @@ const TaC = () => (
     }}
   >
     <ResponsiveHeader />
-    <div className="textContainer">
+    <div className="textContainer" style={{}}>
       <b>Applicability of these General Conditions</b> <br />
       <br />
       1.1 These conditions apply, to the exclusion of any other conditions, to

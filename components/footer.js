@@ -11,12 +11,14 @@ function Footer() {
             <a
               href="https://www.instagram.com/videorbit.studio/"
               target="_blank"
+              alt="link to instagram page"
+              rel="noreferrer"
             >
               <Instagram />
             </a>
           </li>
           <li className="socialIcon">
-            <a href="https://www.facebook.com/VideOrbitStudio/" target="_blank">
+            <a href="https://www.facebook.com/VideOrbitStudio/" target="_blank" alt="link to facebook page" rel="noreferrer">
               <Facebook />
             </a>
           </li>
@@ -24,6 +26,8 @@ function Footer() {
             <a
               href="https://www.linkedin.com/company/videorbit/"
               target="_blank"
+              alt="link to linkedin"
+              rel="noreferrer"
             >
               <Linkedin />
             </a>

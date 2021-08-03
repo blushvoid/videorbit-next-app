@@ -3,14 +3,13 @@ import ResponsiveHeader from "../components/responsiveHeader";
 import Footer from "../components/footer";
 
 const Privacy = () => (
-  <div
+    <div
     className="textPage"
     style={{
-      backgroundImage: "url('background3.png')",
+      backgroundImage: "url('background4.png')",
       backgroundAttachment: "fixed",
       backgroundSize: "cover",
-      height: "100vh",
-      width: "100vw"
+      
     }}
   >
     <ResponsiveHeader />

@@ -14,7 +14,7 @@ const DesktopHeader = () => {
         </a>
       </div>
       <nav className="nav">
-        <a href="/about">discover</a>
+        {/* <a href="/about">discover</a> */}
         <a href="/portfolio">portfolio</a>
         <a className="btn" href="/contact">
           reach
@@ -99,7 +99,7 @@ const MobileHeader = () => {
 const NavContent = () => {
   return (
     <div className="navContent">
-      <a href="/about">discover</a>
+      {/* <a href="/about">discover</a> */}
       <a href="/portfolio">portfolio</a>
       <a href="/contact" style={{ paddingBottom: "0.5rem" }}>
         reach

@@ -10,7 +10,7 @@ export default function HeroSection() {
 We create custom made interactive experiences perfectly balanced between Art, Design, Fashion and Technology.
       </span>
       <a href="/portfolio">
-        <button className="btn-big">
+        <button className="btn-big buttonAnimated">
           check out our portfolio
         </button>
       </a>
