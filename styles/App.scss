@@ -889,7 +889,7 @@ button:disabled {
 // --------------------------CONTACT PAGE
 .textPage {
   margin: 0 auto;
-  background-image: url("/public/background3.png") no-repeat;
+  background-image: url("/background3.png") no-repeat;
 }
 
 .textContainer {
@@ -913,13 +913,13 @@ button:disabled {
   a {
     margin: 0.5rem;
     display: block;
-    width: 100%;
+    width: 600px;
     text-decoration: none;
     cursor: pointer;
     .linksButton {
       text-transform: unset;
       display: block;
-      width: 100%;
+      width: 600px;
     }
   }
 }
@@ -937,7 +937,7 @@ button:disabled {
     #e8d3fa,
     #a78dee
   );
-  // position: absolute;
+  position: absolute;
   top: -2px;
   left: -2px;
   background-size: 400%;
