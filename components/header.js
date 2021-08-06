@@ -72,7 +72,7 @@ const MobileHeader = () => {
           }}
         >
           <div className="menu">
-            <div className="springBurger">
+            <div className="springBurger" alt="burger menu">
               <svg
                 onClick={() => setToggle(!isToggled)}
                 width="40"
@@ -98,7 +98,7 @@ const MobileHeader = () => {
 
 const NavContent = () => {
   return (
-    <div className="navContent">
+    <div className="navContent" alt="menu contents">
       {/* <a href="/about">discover</a> */}
       <a href="/portfolio">portfolio</a>
       <a href="/contact" style={{ paddingBottom: "0.5rem" }}>

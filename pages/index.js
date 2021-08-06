@@ -2,6 +2,7 @@
 // import dynamic from 'next/dynamic'
 
 import React, { useRef, useEffect, useState, Suspense } from 'react'
+import Head from 'next/head'
 
 //R3F
 import { Canvas } from '@react-three/fiber'
@@ -37,6 +38,10 @@ const Page = ({ title }) => {
 
   return (
     <>
+    <Head>
+      <title>Videorbit - Boutique Creative AR Studio in Amsterdam</title>
+      <meta property="viewport" content="initial-scale=1.0, width=device-width" key="title"/>
+    </Head>
       <ResponsiveHeader />
       <Canvas colorManagement camera={{ position: [0, 0, 125], fov: 70 }}>
         <Lights />
