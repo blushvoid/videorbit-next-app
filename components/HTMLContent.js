@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from 'react'
+import React, { useRef, useEffect, Suspense } from 'react'
 import { useInView } from 'react-intersection-observer'
 import { Html, useGLTF } from '@react-three/drei'
 import { useFrame } from '@react-three/fiber'
@@ -16,6 +16,7 @@ const HTMLContent = ({
   children,
   bgColor,
   modelPath,
+  fallbackModelPath,
   position,
 }) => {
   const ref = useRef()
@@ -62,7 +63,9 @@ const HTMLContent = ({
           receiveShadow
         >
           <fog attach='fog' args={['lightpink', 60, 50]} />
-          <Model url={modelPath} />
+          <Suspense fallback={<Model url={fallbackModelPath} />}>
+            <Model url={modelPath} />
+          </Suspense>
         </mesh>
         <Html fullscreen portal={domContent}>
           <div ref={refItem} className='container'>

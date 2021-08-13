@@ -222,7 +222,8 @@ Link {
   width: 12vw;
   @media (max-width: 800px) {
     width: 36vw;
-
+    max-width: 36vw;
+    max-height: 6rem;
     padding: 1rem 0 0 1rem;
     margin-left: 1rem;
   }

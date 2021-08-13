@@ -62,6 +62,7 @@ const MobileHeader = () => {
       <div className="navWrapper">
         <animated.button
           className="burgerWrapper"
+          alt="burger menu"
           onClick={() => setToggle(!isToggled)}
           style={{
             background: "none",
@@ -72,7 +73,7 @@ const MobileHeader = () => {
           }}
         >
           <div className="menu">
-            <div className="springBurger" alt="burger menu">
+            <div className="springBurger">
               <svg
                 onClick={() => setToggle(!isToggled)}
                 width="40"
