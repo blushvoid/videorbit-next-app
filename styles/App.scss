@@ -927,6 +927,13 @@ button:disabled {
     }
   }
 }
+.buttonAnimated {
+  width: 250px;
+  height: 50px;
+  border: none;
+  outline: none;
+  z-index: 0;
+}
 .buttonAnimated:before {
   content: "";
   background: linear-gradient(
